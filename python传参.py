@@ -76,6 +76,15 @@ def add(x):
 add(a.data)
 print(a.data)
 
+a=Node([1,2,3])
+def add(x):
+    x=[100]
+    return x
+
+b=add(a.data)
+print(a.data)
+print(b)
+
 
 a=Node([1,2,3])
 def add(x):
