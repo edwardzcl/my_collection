@@ -71,6 +71,25 @@ add(a)
 print(a.data)
 
 a=Node([1,2,3])
+print(a.data)
+
+def add(x):
+    x.data=100
+
+add(a)    
+print(a.data)
+
+a=Node([1,2,3])
+print(a.data)
+
+def add(x):
+    x=100
+
+add(a.data)    
+print(a.data)
+
+
+a=Node([1,2,3])
 def add(x):
     x.append(1000)
 
