@@ -238,7 +238,7 @@ class task_queue:
         self.queue.append(obj)
         
     def print_queue(self):
-        print self.queue
+        print(self.queue)
         
 
 
@@ -262,7 +262,7 @@ class task_queue:
         self.queue.append(obj)
         
     def print_queue(self):
-        print self.queue
+        print(self.queue)
 
 
 a=task_queue()
@@ -282,10 +282,10 @@ class a():
     
 obj1 = a()  
 obj2 = a()   
-print obj1.num, obj2.num, a.num   
+print(obj1.num, obj2.num, a.num) 
           
 obj1.num += 1  
-print obj1.num, obj2.num, a.num     
+print(obj1.num, obj2.num, a.num)    
       
 a.num += 2  
 print obj1.num, obj2.num, a.num
@@ -315,5 +315,13 @@ a = Student()
 b = Student()
 
 print(ClassTest.getNum())
+
+
+
+"""
+更多可以参考我的CSDN博客：
+https://blog.csdn.net/edward_zcl/article/details/85008048m
+https://blog.csdn.net/edward_zcl/article/details/88382319
+"""
 
 
